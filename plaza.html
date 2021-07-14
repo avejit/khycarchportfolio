@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khycarchportfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="mid">
+            <div class="header">
+
+
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn">
+                    <i class="fas fa-bars cross" style="font-size: 40px;border: 1px solid black;padding: 10px;"></i>
+                </label>
+
+                <ul class="first">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="portfolio.html">Portfolio
+                           <input type="checkbox" id="tap" style="display: none">
+                            <label for="tap" class=" jnr">
+                                <i class="fas fa-chevron-down nd"></i>
+                            </label>
+                        </a>
+
+                        <ul class="second">
+                            <li><a href="court.html">Haili Court Apartments</a></li>
+                            <li><a href="bay.html">Haitang Bay Resort</a></li>
+                            <li><a href="llc.html">AAC Solutions LLC</a></li>
+                            <li><a href="plaza.html">Tianjin Shopping Plaza</a></li>
+                            <li><a href="steel.html">Panelized Steel Systems</a></li>
+                            <li><a href="kowa.html">KOWA Boutique Hotel</a></li>
+                            <li><a href="wuxi.html">Wuxi CBD Development</a></li>
+                            <li><a href="ascc.html">ASCC Multi-Purpose Center</a></li>
+                            <li><a href="shopping.html">Changshu Shopping District</a></li>
+                            <li><a href="apart.html">Moanalua Hillside Apartments</a></li>
+                            <li><a href="aircraft.html">Aircraft Maintenance Complex</a></li>
+                            <li><a href="center.html">New Jiangwan Culture Center</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+
+
+            <div class="court clear">
+
+                <h1>Tianjin Shopping Plaza</h1>
+
+                <img src="img/plaza.jpg" alt="">
+
+                <hr>
+
+                <p>
+                    Tianjin Shopping Space Design <br>
+                    Tianjin City, China
+                </p>
+
+                <p>
+                    The development of Tianjin City required a new vibrant development that is in response to the modernization of the city and China. Departing previous Chinese-style layouts, the design incorporates modern trends and materials with tectonic form. The basic layout function conforms beyond the property lines, providing studies that show inclusive pedestrian flow from the surrounding neighborhoods. The concept is designed to be architecturally pleasing at both eye level and provide an atmosphere of modern and comfort. Ultimately, its purpose was to illustrate making the shopping experience more than just utilitarian; it is a welcoming experience reflecting modern China.
+                </p>
+                <hr>
+
+                <div class="pic left">
+                    <a href="#">PROCESS 1</a>
+                    <img src="img/plaza1.jpg" alt="" onclick="openModal();currentSlide(1)">
+                </div>
+                <div class="pic left">
+                    <a href="#">PROCESS 2</a>
+                    <img src="img/plaza2.jpg" alt="" onclick="openModal();currentSlide(2)">
+                </div>
+                <div class="pic left">
+                    <a href="#">PROCESS 3</a>
+                    <img src="img/plaza3.jpg" alt="" onclick="openModal();currentSlide(3)">
+                </div>
+
+                <div class="pic left">
+                    <a href="#">TIANJIN ENTRANCE</a>
+                    <img src="img/plaza4.jpg" alt="" onclick="openModal();currentSlide(4)">
+                </div>
+
+                <div class="pic left">
+                    <a href="#">TIANJIN MODEL</a>
+                    <img src="img/plaza5.jpg" alt="" onclick="openModal();currentSlide(5)">
+                </div>
+                <div class="pic left">
+                    <a href="#">TIANJIN RENDER 1</a>
+                    <img src="img/plaza6.jpg" alt="" onclick="openModal();currentSlide(6)">
+                </div>
+                <div class="pic left">
+                    <a href="#">TIANJIN RENDER 2</a>
+                    <img src="img/plaza7.jpg" alt="" onclick="openModal();currentSlide(7)">
+                </div>
+                <div class="pic left">
+                    <a href="#">TIANJIN RENDER 3</a>
+                    <img src="img/plaza8.jpg" alt="" onclick="openModal();currentSlide(8)">
+                </div>
+                <div class="pic left">
+                    <a href="#">TIANJIN RENDER 4</a>
+                    <img src="img/plaza9.jpg" alt="" onclick="openModal();currentSlide(9)">
+                </div>
+
+
+
+<!--  light box start -->
+
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+
+                        <div class="mySlides">
+
+                            <img src="img/plaza1.jpg" style="width:100%">
+                            <h3>PROCESS 1</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/plaza2.jpg" style="width:100%">
+                            <h3>PROCESS 2</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/plaza3.jpg" style="width:100%">
+                            <h3>PROCESS 3</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/plaza4.jpg" style="width:85%">
+                            <h3>TIANJIN ENTRANCE</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/plaza5.jpg" style="width:85%">
+                            <h3>TIANJIN MODEL</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/plaza6.jpg" style="width:90%">
+                            <h3>TIANJIN RENDER 1</h3>
+                        </div>
+                        
+                         <div class="mySlides">
+
+                            <img src="img/plaza7.jpg" style="width:90%">
+                            <h3>TIANJIN RENDER 2</h3>
+                        </div>
+                        
+                         <div class="mySlides">
+
+                            <img src="img/plaza8.jpg" style="width:100%">
+                            <h3>TIANJIN RENDER 3</h3>
+                        </div>
+                        
+                         <div class="mySlides">
+
+                            <img src="img/plaza9.jpg" style="width:100%">
+                            <h3>TIANJIN RENDER 4</h3>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+                    </div>
+                </div>
+
+
+<!-- light box end -->
+
+
+
+
+
+
+
+            </div>
+            <div class="sm">
+                <span onclick="myFunction()" class="showmore"><u>Show more</u> </span>
+            </div>
+
+            <button>
+                <a href="portfolio.html">
+                    << BACK TO PORTFOLIO 
+                </a>
+            </button>
+
+
+
+
+            <div class="footer">
+                <hr>
+                <span>© 2019 by KEEFE CHNG</span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+
+    </script>
+
+    <script>
+        $(".pic").slice(0, 3).show();
+
+        $(".showmore").on("click", function() {
+            $(".pic:hidden").slice(0, 3).show();
+
+            if ($(".pic:hidden").length == 0) {
+                $(".showmore").fadeOut();
+            }
+        })
+    </script>
+
+
+
+
+    <script>
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>

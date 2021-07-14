@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khycarchportfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="mid">
+            <div class="header">
+
+
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn">
+                    <i class="fas fa-bars cross" style="font-size: 40px;border: 1px solid black;padding: 10px;"></i>
+                </label>
+
+                <ul class="first">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="portfolio.html">Portfolio
+                           <input type="checkbox" id="tap" style="display: none">
+                            <label for="tap" class=" jnr">
+                                <i class="fas fa-chevron-down nd"></i>
+                            </label>
+                        </a>
+
+                        <ul class="second">
+                            <li><a href="court.html">Haili Court Apartments</a></li>
+                            <li><a href="bay.html">Haitang Bay Resort</a></li>
+                            <li><a href="llc.html">AAC Solutions LLC</a></li>
+                            <li><a href="plaza.html">Tianjin Shopping Plaza</a></li>
+                            <li><a href="steel.html">Panelized Steel Systems</a></li>
+                            <li><a href="kowa.html">KOWA Boutique Hotel</a></li>
+                            <li><a href="wuxi.html">Wuxi CBD Development</a></li>
+                            <li><a href="ascc.html">ASCC Multi-Purpose Center</a></li>
+                            <li><a href="shopping.html">Changshu Shopping District</a></li>
+                            <li><a href="apart.html">Moanalua Hillside Apartments</a></li>
+                            <li><a href="aircraft.html">Aircraft Maintenance Complex</a></li>
+                            <li><a href="center.html">New Jiangwan Culture Center</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+
+
+            <div class="court clear">
+
+                <h1>Aircraft Maintenance Complex</h1>
+
+                <img src="img/aircraft.jpg" alt="">
+
+                <hr>
+
+                <p>
+                    Aircraft Maintenance Complex (AMC) <br>
+                    Asia Pacific & Polynesia
+                </p>
+
+                <p>
+                    New technologies in aircraft development includes new and innovative designs for large capacity and flexible hangars that can serve varied aircraft service and control. While the hangar and rear offices are service areas, both sides of the hangar serve as control rooms if the building is located at an airstrip without flight control offices. The building's major material is locally sourced concrete and sheet metal over the large maintenance bay. The building is designed to withstand major weather conditions in the area, while also being large enough to shelter one medium sized aircraft or several small personal aircraft. The building is certified LEED Silver due to a sophisticated HVAC system that prioritizes service to different rooms, cools/heats the hangar through natural breezes and HVAC, non-mechanical drainage that does not runoff to soil or tarmac, and is specified to use eco-friendly materials.
+                </p>
+                <hr>
+
+                <div class="pic left">
+                    <a href="#">AMC - FP</a>
+                    <img src="img/aircraft1.jpg" alt="" onclick="openModal();currentSlide(1)">
+                </div>
+                <div class="pic left">
+                    <a href="#">AMC - REAR ELEV</a>
+                    <img src="img/aircraft2.jpg" alt="" onclick="openModal();currentSlide(2)">
+                </div>
+                <div class="pic left">
+                    <a href="#">AMC - TRANSVERSE SECT</a>
+                    <img src="img/aircraft3.jpg" alt="" onclick="openModal();currentSlide(3)">
+                </div>
+
+                <div class="pic left">
+                    <a href="#">AMC - SOFFIT DETAIL</a>
+                    <img src="img/aircraft4.jpg" alt="" onclick="openModal();currentSlide(4)">
+                </div>
+
+                <div class="pic left">
+                    <a href="#">AMC - ACCESS LADDER DETAIL</a>
+                    <img src="img/aircraft5.jpg" alt="" onclick="openModal();currentSlide(5)" style="width: 45%;">
+                </div>
+                <div class="pic left">
+                    <a href="#">AMC - FP</a>
+                    <img src="img/aircraft6.jpg" alt="" onclick="openModal();currentSlide(6)">
+                </div>
+
+
+
+<!--  light box start -->
+
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+
+                        <div class="mySlides">
+
+                            <img src="img/aircraft1.jpg" style="width:100%">
+                            <h3>AMC - FP</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/aircraft2.jpg" style="width:65%">
+                            <h3>AMC - REAR ELEV</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/aircraft3.jpg" style="width:100%">
+                            <h3>AMC - TRANSVERSE SECT</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/aircraft4.jpg" style="width:48%">
+                            <h3>AMC - SOFFIT DETAIL</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/aircraft5.jpg" style="width:22%">
+                            <h3>AMC - ACCESS LADDER DETAIL</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/aircraft6.jpg" style="width:100%">
+                            <h3>AMC - FP</h3>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+                    </div>
+                </div>
+
+
+<!-- light box end -->
+
+
+
+
+
+
+
+            </div>
+            <div class="sm">
+                <span onclick="myFunction()" class="showmore"><u>Show more</u> </span>
+            </div>
+
+            <button>
+                <a href="portfolio.html">
+                    << BACK TO PORTFOLIO 
+                </a>
+            </button>
+
+
+
+
+            <div class="footer">
+                <hr>
+                <span>© 2019 by KEEFE CHNG</span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+
+    </script>
+
+    <script>
+        $(".pic").slice(0, 3).show();
+
+        $(".showmore").on("click", function() {
+            $(".pic:hidden").slice(0, 3).show();
+
+            if ($(".pic:hidden").length == 0) {
+                $(".showmore").fadeOut();
+            }
+        })
+    </script>
+
+
+
+
+    <script>
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>

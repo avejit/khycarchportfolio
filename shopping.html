@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khycarchportfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="mid">
+            <div class="header">
+
+
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn">
+                    <i class="fas fa-bars cross" style="font-size: 40px;border: 1px solid black;padding: 10px;"></i>
+                </label>
+
+                <ul class="first">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="portfolio.html">Portfolio
+                           <input type="checkbox" id="tap" style="display: none">
+                            <label for="tap" class=" jnr">
+                                <i class="fas fa-chevron-down nd"></i>
+                            </label>
+                        </a>
+
+                        <ul class="second">
+                            <li><a href="court.html">Haili Court Apartments</a></li>
+                            <li><a href="bay.html">Haitang Bay Resort</a></li>
+                            <li><a href="llc.html">AAC Solutions LLC</a></li>
+                            <li><a href="plaza.html">Tianjin Shopping Plaza</a></li>
+                            <li><a href="steel.html">Panelized Steel Systems</a></li>
+                            <li><a href="kowa.html">KOWA Boutique Hotel</a></li>
+                            <li><a href="wuxi.html">Wuxi CBD Development</a></li>
+                            <li><a href="ascc.html">ASCC Multi-Purpose Center</a></li>
+                            <li><a href="shopping.html">Changshu Shopping District</a></li>
+                            <li><a href="apart.html">Moanalua Hillside Apartments</a></li>
+                            <li><a href="aircraft.html">Aircraft Maintenance Complex</a></li>
+                            <li><a href="center.html">New Jiangwan Culture Center</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+
+
+            <div class="court clear">
+
+                <h1>Changshu Shopping District</h1>
+
+                <img src="img/district.jpg" alt="">
+
+                <hr>
+
+                <p>
+                    Changshu Shopping District <br>
+                    Changshu, Suzhou, China
+
+
+                </p>
+
+                <p>
+                    This design purpose is an entry into a local government competition. The building design covers the entire site, with a 6 floor shopping mall, office blocks, and a hotel/mix use tower. Because the site is located parallel to existing office blocks on the northern river way, the new office blocks are oriented north for continuity and for better ventilation (west-east). The hotel tower incorporates a curved surface to provide views for all guests. The blocks is designed with a sailboat shape, reminiscent to the Chinese character of “success”. The design is a vibrant commercial and business area; a mature commercial area to attract people locally and internationally.
+                </p>
+                <hr>
+
+                <div class="pic left">
+                    <a href="#">Changshu - Office Level</a>
+                    <img src="img/shopping1.jpg" alt="" onclick="openModal();currentSlide(1)">
+                </div>
+                <div class="pic left">
+                    <a href="#">Changshu - Hotel Level</a>
+                    <img src="img/shopping2.jpg" alt="" onclick="openModal();currentSlide(2)">
+                </div>
+                <div class="pic left">
+                    <a href="#">Changshu - Restaurant</a>
+                    <img src="img/shopping3.jpg" alt="" onclick="openModal();currentSlide(3)">
+                </div>
+
+                <div class="pic left">
+                    <a href="#">Changshu - Hotel Pedestal</a>
+                    <img src="img/shopping4.jpg" alt="" onclick="openModal();currentSlide(4)">
+                </div>
+
+                <div class="pic left">
+                    <a href="#">Changshu - Office Block Sketch</a>
+                    <img src="img/shopping5.jpg" alt="" onclick="openModal();currentSlide(5)">
+                </div>
+                <div class="pic left">
+                    <a href="#">Changshu - Entrance Sketch</a>
+                    <img src="img/shopping6.jpg" alt="" onclick="openModal();currentSlide(6)">
+                </div>
+                <div class="pic left">
+                    <a href="#">Changshu - Tower Sketch</a>
+                    <img src="img/shopping7.jpg" alt="" onclick="openModal();currentSlide(7)">
+                </div>
+                <div class="pic left">
+                    <a href="#">Changshu - Render</a>
+                    <img src="img/shopping8.jpg" alt="" onclick="openModal();currentSlide(8)">
+                </div>
+                <div class="pic left">
+                    <a href="#">Changshu - Overall Site</a>
+                    <img src="img/shopping9.jpg" alt="" onclick="openModal();currentSlide(9)">
+                </div>
+
+
+
+<!--  light box start -->
+
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+
+                        <div class="mySlides">
+
+                            <img src="img/shopping1.jpg" style="width:45%">
+                            <h3>Changshu - Office Level</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/shopping2.jpg" style="width:42%">
+                            <h3>Changshu - Hotel Level</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/shopping3.jpg" style="width:45%">
+                            <h3>Changshu - Restaurant</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/shopping4.jpg" style="width:75%">
+                            <h3>Changshu - Hotel Pedestal</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/shopping5.jpg" style="width:53%">
+                            <h3>Changshu - Office Block Sketch</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/shopping6.jpg" style="width:85%">
+                            <h3>Changshu - Entrance Sketch</h3>
+                        </div>
+                        
+                         <div class="mySlides">
+
+                            <img src="img/shopping7.jpg" style="width:45%">
+                            <h3>Changshu - Tower Sketch</h3>
+                        </div>
+                        
+                         <div class="mySlides">
+
+                            <img src="img/shopping8.jpg" style="width:85%">
+                            <h3>Changshu - Render</h3>
+                        </div>
+                        
+                         <div class="mySlides">
+
+                            <img src="img/shopping9.jpg" style="width:85%">
+                            <h3>Changshu - Overall Site</h3>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+                    </div>
+                </div>
+
+
+<!-- light box end -->
+
+
+
+
+
+
+
+            </div>
+            <div class="sm">
+                <span onclick="myFunction()" class="showmore"><u>Show more</u> </span>
+            </div>
+
+            <button>
+                <a href="portfolio.html">
+                    << BACK TO PORTFOLIO 
+                </a>
+            </button>
+
+
+
+
+            <div class="footer">
+                <hr>
+                <span>© 2019 by KEEFE CHNG</span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+
+    </script>
+
+    <script>
+        $(".pic").slice(0, 3).show();
+
+        $(".showmore").on("click", function() {
+            $(".pic:hidden").slice(0, 3).show();
+
+            if ($(".pic:hidden").length == 0) {
+                $(".showmore").fadeOut();
+            }
+        })
+    </script>
+
+
+
+
+    <script>
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>

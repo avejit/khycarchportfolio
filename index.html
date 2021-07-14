@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khycarchportfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="mid">
+            <div class="header">
+
+
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn">
+                    <i class="fas fa-bars cross" style="font-size: 40px;border: 1px solid black;padding: 10px;"></i>
+                </label>
+
+                <ul class="first">
+                    <li class="active"><a href="index.html" >Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="portfolio.html">Portfolio
+                           <input type="checkbox" id="tap" style="display: none">
+                            <label for="tap" class=" jnr">
+                                <i class="fas fa-chevron-down nd"></i>
+                            </label>
+                        </a>
+
+                        <ul class="second">
+                            <li><a href="court.html">Haili Court Apartments</a></li>
+                            <li><a href="bay.html">Haitang Bay Resort</a></li>
+                            <li><a href="llc.html">AAC Solutions LLC</a></li>
+                            <li><a href="plaza.html">Tianjin Shopping Plaza</a></li>
+                            <li><a href="steel.html">Panelized Steel Systems</a></li>
+                            <li><a href="kowa.html">KOWA Boutique Hotel</a></li>
+                            <li><a href="wuxi.html">Wuxi CBD Development</a></li>
+                            <li><a href="ascc.html">ASCC Multi-Purpose Center</a></li>
+                            <li><a href="shopping.html">Changshu Shopping District</a></li>
+                            <li><a href="apart.html">Moanalua Hillside Apartments</a></li>
+                            <li><a href="aircraft.html">Aircraft Maintenance Complex</a></li>
+                            <li><a href="center.html">New Jiangwan Culture Center</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+            
+            
+            <div class="content">
+                <img src="img/home.jpg" alt="">
+                <h1>Keefe Hien Yau Ch'ng, D.Arch</h1>
+                <hr>
+                <h4>Online Portfolio and CV</h4>
+
+            </div>
+            <div class="footer">
+                <hr>
+                <span>© 2019 by KEEFE CHNG</span>
+            </div>
+        </div>
+    </div>
+
+
+ <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+<script type="text/javascript">
+    $(document).on('click' , 'ul li' , function(){
+        $(this).addClass('active').siblings().removeClass('active')
+    })
+    
+    
+    </script>
+    
+<!--
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('li').on('click' , function(){
+            $('li').addClass('active');
+        })
+    })
+    </script>
+-->
+
+
+    
+</body>
+
+</html>

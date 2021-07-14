@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khycarchportfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="mid">
+            <div class="header">
+
+
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn">
+                    <i class="fas fa-bars cross" style="font-size: 40px;border: 1px solid black;padding: 10px;"></i>
+                </label>
+
+                <ul class="first">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="portfolio.html">Portfolio
+                           <input type="checkbox" id="tap" style="display: none">
+                            <label for="tap" class=" jnr">
+                                <i class="fas fa-chevron-down nd"></i>
+                            </label>
+                        </a>
+
+                        <ul class="second">
+                            <li><a href="court.html">Haili Court Apartments</a></li>
+                            <li><a href="bay.html">Haitang Bay Resort</a></li>
+                            <li><a href="llc.html">AAC Solutions LLC</a></li>
+                            <li><a href="plaza.html">Tianjin Shopping Plaza</a></li>
+                            <li><a href="steel.html">Panelized Steel Systems</a></li>
+                            <li><a href="kowa.html">KOWA Boutique Hotel</a></li>
+                            <li><a href="wuxi.html">Wuxi CBD Development</a></li>
+                            <li><a href="ascc.html">ASCC Multi-Purpose Center</a></li>
+                            <li><a href="shopping.html">Changshu Shopping District</a></li>
+                            <li><a href="apart.html">Moanalua Hillside Apartments</a></li>
+                            <li><a href="aircraft.html">Aircraft Maintenance Complex</a></li>
+                            <li><a href="center.html">New Jiangwan Culture Center</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+
+
+            <div class="court clear">
+
+                <h1>Moanalua Hillside Apartments</h1>
+
+                <img src="img/apart.jpg" alt="">
+
+                <hr>
+
+                <p>
+                    Moanalua Hillside Apartments <br>
+                    Moanalua, Oahu, HI
+
+                </p>
+
+                <p>
+                    The proposal for the Moanalua Hillside Apartments is twofold: a new development to curb the growing lack of housing on Oahu, and to renovate the existing facilities for the area. The site is on the preexisting area of the Moanalua Apartment Complex, with the new buildings on previously unbuilt area. Four low-rise existing apartments will be demolished, replaced with a new 500+ unit towers, a new leasing office, recreation center, and other maintenance buildings. The clientele is aimed toward younger owners, who seek a place to live, work, and play, while being minutes to many attractions on and around the area of Moanalua.
+                </p>
+                <hr>
+
+                <div class="pic left">
+                    <a href="#">MHA - SITE PLAN</a>
+                    <img src="img/apart1.jpg" alt="" onclick="openModal();currentSlide(1)">
+                </div>
+                <div class="pic left">
+                    <a href="#">MHA - TYP FLOOR</a>
+                    <img src="img/apart2.jpg" alt="" onclick="openModal();currentSlide(2)">
+                </div>
+                <div class="pic left">
+                    <a href="#">MHA - TOWER ELEV</a>
+                    <img src="img/apart3.jpg" alt="" onclick="openModal();currentSlide(3)">
+                </div>
+
+                <div class="pic left">
+                    <a href="#">MHA - STUDIO RENDER</a>
+                    <img src="img/apart4.jpg" alt="" onclick="openModal();currentSlide(4)">
+                </div>
+
+                <div class="pic left">
+                    <a href="#">MHA - 1BDRM RENDER</a>
+                    <img src="img/apart5.jpg" alt="" onclick="openModal();currentSlide(5)">
+                </div>
+                <div class="pic left">
+                    <a href="#">MHA - FP - LEASING OFFICE</a>
+                    <img src="img/apart6.jpg" alt="" onclick="openModal();currentSlide(6)">
+                </div>
+                <div class="pic left">
+                    <a href="#">MHA - LEASING - ELEV</a>
+                    <img src="img/apart7.jpg" alt="" onclick="openModal();currentSlide(7)">
+                </div>
+                <div class="pic left">
+                    <a href="#">MHA - REC BLDG FP</a>
+                    <img src="img/apart8.jpg" alt="" onclick="openModal();currentSlide(8)">
+                </div>
+                <div class="pic left">
+                    <a href="#">MHA - REC BLDG RENDER</a>
+                    <img src="img/apart9.jpg" alt="" onclick="openModal();currentSlide(9)">
+                </div>
+
+
+
+<!--  light box start -->
+
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+
+                        <div class="mySlides">
+
+                            <img src="img/apart1.jpg" style="width:100%">
+                            <h3>MHA - SITE PLAN</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/apart2.jpg" style="width:100%">
+                            <h3>MHA - TYP FLOOR</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/apart3.jpg" style="width:100%">
+                            <h3>MHA - TOWER ELEV</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/apart4.jpg" style="width:100%">
+                            <h3>MHA - STUDIO RENDER</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/apart5.jpg" style="width:75%">
+                            <h3>MHA - 1BDRM RENDER</h3>
+                        </div>
+
+                        <div class="mySlides">
+
+                            <img src="img/apart6.jpg" style="width:65%">
+                            <h3>MHA - FP - LEASING OFFICE</h3>
+                        </div>
+                        
+                         <div class="mySlides">
+
+                            <img src="img/apart7.jpg" style="width:100%">
+                            <h3>MHA - LEASING - ELEV</h3>
+                        </div>
+                        
+                         <div class="mySlides">
+
+                            <img src="img/apart8.jpg" style="width:100%">
+                            <h3>MHA - REC BLDG FP</h3>
+                        </div>
+                        
+                         <div class="mySlides">
+
+                            <img src="img/apart9.jpg" style="width:100%">
+                            <h3>MHA - REC BLDG RENDER</h3>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+                    </div>
+                </div>
+
+
+<!-- light box end -->
+
+
+
+
+
+
+
+            </div>
+            <div class="sm">
+                <span onclick="myFunction()" class="showmore"><u>Show more</u> </span>
+            </div>
+
+            <button>
+                <a href="portfolio.html">
+                    << BACK TO PORTFOLIO 
+                </a>
+            </button>
+
+
+
+
+            <div class="footer">
+                <hr>
+                <span>© 2019 by KEEFE CHNG</span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+
+    </script>
+
+    <script>
+        $(".pic").slice(0, 3).show();
+
+        $(".showmore").on("click", function() {
+            $(".pic:hidden").slice(0, 3).show();
+
+            if ($(".pic:hidden").length == 0) {
+                $(".showmore").fadeOut();
+            }
+        })
+    </script>
+
+
+
+
+    <script>
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>
