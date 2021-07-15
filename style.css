@@ -586,6 +586,16 @@ label {
         top: 0px;
         right: 0px;
     }
+    
+    .active{
+        background-color: black;
+        color: white;
+    }
+    
+    .active > a {
+        color: white!important;
+        background-color: black!important;
+    }
 
 
 
@@ -730,7 +740,7 @@ label {
     }
 
     .court .pic {
-        width: 50%;
+        width: 33.3%;
         height: 175px;
         margin-top: 100px;
         position: relative;
@@ -738,8 +748,15 @@ label {
     }
 
 
-
-
+    .modal-content{
+        width: 100%!important;
+    }
+.prev {
+    margin-left: -3%!important;
+}
+    .next {
+    margin-right: -3%!important;
+}
 
 
 
@@ -855,7 +872,7 @@ label {
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: white;
+    color: whitesmoke;
     font-size: 80px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
